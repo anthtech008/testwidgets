@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(#7ec0ee 0%, #bfe6ff 60%, #dff3ff 100%);
+}
+
+#cat-canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+.mc-back {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 10;
+}
